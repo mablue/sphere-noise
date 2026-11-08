@@ -75,3 +75,5 @@ the real hard part is **breaking the gauge**.
 | E | Euler error vs \(N\) | 3 numbers regardless of \(N\) |
 
 Plots in `plots/`, raw numbers in `results/results.json`.
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24062932.svg)](https://doi.org/10.5281/zenodo.24062932)
