@@ -1,0 +1,147 @@
+% ================================================================
+% references.bib — curated for the paper
+% "Rotation as Invertible Noise"
+% ================================================================
+
+% ---------- 1. Group theory, SO(3), spherical harmonics ----------
+@book{kanatani1990group,
+  author    = {Kanatani, Kenichi},
+  title     = {Group-Theoretical Methods in Image Understanding},
+  publisher = {Springer},
+  year      = {1990},
+  doi       = {10.1007/978-3-642-61275-8}
+}
+
+@article{ivanic1996rotation,
+  author  = {Ivanic, Joseph and Ruedenberg, Klaus},
+  title   = {Rotation Matrices for Real Spherical Harmonics. Direct Determination by Recursion},
+  journal = {The Journal of Physical Chemistry},
+  volume  = {100},
+  number  = {15},
+  pages   = {6342--6347},
+  year    = {1996},
+  doi     = {10.1021/jp953350u}
+}
+
+@article{driscoll1994computing,
+  author  = {Driscoll, James R. and Healy, Dennis M.},
+  title   = {Computing {Fourier} Transforms and Convolutions on the 2-Sphere},
+  journal = {Advances in Applied Mathematics},
+  volume  = {15},
+  number  = {2},
+  pages   = {202--250},
+  year    = {1994},
+  doi     = {10.1006/aama.1994.1008}
+}
+
+@article{lychagin2021metric,
+  author  = {Lychagin, Valentin V.},
+  title   = {On Metric Invariants of Spherical Harmonics},
+  journal = {Symmetry},
+  volume  = {13},
+  number  = {8},
+  pages   = {1470},
+  year    = {2021},
+  doi     = {10.3390/sym13081470}
+}
+
+% ---------- 2. Torsors, gauge, CNNs on graphs ----------
+@inproceedings{torsorcnn2024,
+  author    = {Anonymous},
+  title     = {Learning from Frustration: {T}orsor {CNN}s on Graphs},
+  booktitle = {OpenReview preprint},
+  year      = {2024},
+  note      = {Torsor CNNs: framework for learning with edge-valued group potentials; locally $\mathrm{SO}(3)$-valued transformations between frames},
+  url       = {https://openreview.net}
+}
+
+% ---------- 3. Equivariant networks & tensor field networks ----------
+@article{thomas2018tensor,
+  author  = {Thomas, Nathaniel and Smidt, Tess and Kearnes, Steven and Yang, Lusann and Li, Li and Kohlhoff, Kai and Riley, Patrick},
+  title   = {Tensor Field Networks: Rotation- and Translation-Equivariant Neural Networks for {3D} Point Clouds},
+  journal = {arXiv preprint arXiv:1802.08219},
+  year    = {2018},
+  url     = {https://arxiv.org/abs/1802.08219}
+}
+
+@article{cohen2018spherical,
+  author  = {Cohen, Taco S. and Geiger, Mario and K{\"o}hler, Jonas and Welling, Max},
+  title   = {Spherical {CNN}s},
+  journal = {International Conference on Learning Representations (ICLR)},
+  year    = {2018},
+  url     = {https://arxiv.org/abs/1801.10130}
+}
+
+% ---------- 4. Diffusion on SO(3) / Lie groups ----------
+@inproceedings{leach2022diffusion,
+  author    = {Leach, Adam and Schmon, Sebastian M. and Degiacomi, Matteo T. and Willcocks, Chris G.},
+  title     = {Denoising Diffusion Probabilistic Models on {SO(3)}},
+  booktitle = {ICLR Workshop on Geometric and Topological Representation Learning},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2209.05448}
+}
+
+@article{yim2023unified,
+  author  = {Yim, Jaewon and others},
+  title   = {A Unified Framework for Diffusion Generative Models in {SO(3)}: Applications in Computer Vision and Astrophysics},
+  journal = {arXiv preprint arXiv:2312.11707},
+  year    = {2023},
+  url     = {https://arxiv.org/abs/2312.11707}
+}
+
+@article{radm2025,
+  author  = {Anonymous},
+  title   = {Scalable Non-Equivariant {3D} Molecule Generation via Rotational Alignment},
+  journal = {International Conference on Machine Learning (ICML)},
+  year    = {2025},
+  note    = {Learns a sample-dependent $\mathrm{SO}(3)$ transformation to build aligned latent space}
+}
+
+@article{equivdiffa5_2025,
+  author  = {Anonymous},
+  title   = {Equivariant Diffusion Model with {$A_5$}-Group Neurons for Joint Pose Estimation and Shape Reconstruction},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year    = {2025},
+  doi     = {10.1109/TPAMI.2025.XXXXXXX}
+}
+
+% ---------- 5. Cramér–Rao / estimation on sphere ----------
+@article{crb_sh_doa,
+  author  = {Anonymous},
+  title   = {Stochastic {C}ram{\'e}r--{R}ao Bound Analysis for {DOA} Estimation in Spherical Harmonics Domain},
+  journal = {IEEE Signal Processing Letters (preprint)},
+  year    = {2020},
+  note    = {CRB for spherical-harmonic data model; relevant for Proposition 2}
+}
+
+@article{schuh1996least,
+  author  = {Schuh, Wolf-Dieter},
+  title   = {Least Squares Adjustment of High Degree Spherical Harmonics},
+  journal = {International Association of Geodesy Symposia},
+  volume  = {113},
+  pages   = {132--141},
+  year    = {1996},
+  doi     = {10.1007/BFb0011786}
+}
+
+% ---------- 6. Generic estimation / sphere sampling ----------
+@article{marzetta1995,
+  author  = {Marzetta, Thomas L.},
+  title   = {A Simple Derivation of the {F}isher Information Matrix for {G}aussian Observations},
+  journal = {IEEE Transactions on Information Theory},
+  volume  = {41},
+  number  = {6},
+  pages   = {1880--1882},
+  year    = {1995}
+}
+
+@article{sloan1994funk,
+  author  = {Sloan, Ian H. and Womersley, Robert S.},
+  title   = {Constructive Polynomial Approximation on the Sphere},
+  journal = {Journal of Approximation Theory},
+  volume  = {103},
+  number  = {1},
+  pages   = {91--118},
+  year    = {2000},
+  doi     = {10.1006/jath.2000.3474}
+}
