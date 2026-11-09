@@ -76,4 +76,5 @@ the real hard part is **breaking the gauge**.
 
 Plots in `plots/`, raw numbers in `results/results.json`.
 
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24062931.svg)](https://doi.org/10.5281/zenodo.24062931)
